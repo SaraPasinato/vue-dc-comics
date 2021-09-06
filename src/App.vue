@@ -4,17 +4,22 @@
   <main>
     <Comics/>
   </main>
+  <footer>
+    <FooterLinks/>
+  </footer>
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
+import FooterLinks from "@/components/FooterLinks.vue";
 import Comics from "@/components/Comics.vue";
 export default {
   name: 'App',
   components: {
    Header,
    Comics,
+   FooterLinks,
   }
 }
 </script>
@@ -43,6 +48,32 @@ img{
 
 .row{
   display: flex;
-
+  
 }
+
+.col-6{
+  flex-basis: 100%/2;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  padding: 44px 20px;
+  
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+li a:hover {
+  color: #0282f9;
+}
+
+.link-sm{
+  font-size: 0.8em;
+}
+
 </style>
