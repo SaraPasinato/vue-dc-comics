@@ -95,23 +95,6 @@ header .row {
   justify-content: space-between;
 }
 
-#list-nav li {
-  list-style-type: none;
-}
-
-#list-nav li a {
-  text-decoration: none;
-  padding: 44px 20px;
-  color: #000;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.9em;
-}
-
-#list-nav li a:hover {
-  color: #0282f9;
-}
-
 .active{
   border-bottom: 4px solid #0282f9;
   color: #0282f9;
