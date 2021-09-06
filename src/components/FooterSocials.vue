@@ -27,7 +27,7 @@ export default {
 
 <style>
 #socials{
-    height: 10vh;
+    height: 13vh;
     width: 100%;
     background-color:#303030 ;
 }

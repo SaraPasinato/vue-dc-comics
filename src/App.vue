@@ -3,6 +3,7 @@
   <Header/>
   <main>
     <Comics/>
+    <SiteLinks/>
   </main>
   <footer>
     <FooterLinks/>
@@ -16,6 +17,7 @@ import Header from "@/components/Header.vue";
 import FooterLinks from "@/components/FooterLinks.vue";
 import FooterSocials from "@/components/FooterSocials.vue";
 import Comics from "@/components/Comics.vue";
+import SiteLinks from "@/components/SiteLinks.vue";
 export default {
   name: 'App',
   components: {
@@ -23,6 +25,7 @@ export default {
    Comics,
    FooterLinks,
    FooterSocials,
+   SiteLinks,
   }
 }
 </script>

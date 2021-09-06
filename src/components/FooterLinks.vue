@@ -63,7 +63,7 @@ export default {
 
 <style>
 #footer-links{
-    height: 30vh;
+    height: 40vh;
 
     background: url('../assets/img/footer-bg.jpg');
     background-position: center;
