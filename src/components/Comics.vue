@@ -1,6 +1,6 @@
 <template>
-  <section id="comics">
-
+  <section id="comics" class="container">
+      <h2> &rarr; Content goes here !! &larr;</h2>
   </section>
 </template>
 
@@ -12,4 +12,9 @@ export default {
 
 <style>
 
+#comics{
+    height: 20vh;
+    padding: 80px;
+    color: #fff;
+    }
 </style>
