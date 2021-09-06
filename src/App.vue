@@ -6,6 +6,7 @@
   </main>
   <footer>
     <FooterLinks/>
+    <FooterSocials/>
   </footer>
   </div>
 </template>
@@ -13,6 +14,7 @@
 <script>
 import Header from "@/components/Header.vue";
 import FooterLinks from "@/components/FooterLinks.vue";
+import FooterSocials from "@/components/FooterSocials.vue";
 import Comics from "@/components/Comics.vue";
 export default {
   name: 'App',
@@ -20,6 +22,7 @@ export default {
    Header,
    Comics,
    FooterLinks,
+   FooterSocials,
   }
 }
 </script>
@@ -62,7 +65,8 @@ li {
 li a {
   text-decoration: none;
   padding: 44px 20px;
-  
+  color: #303030;
+
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.9em;
@@ -75,5 +79,18 @@ li a:hover {
 .link-sm{
   font-size: 0.8em;
 }
+
+.btn{
+  padding:20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn.btn-primary{
+  color: #fff;
+  border: 2px solid #0282f9;
+}
+
+
+
 
 </style>
