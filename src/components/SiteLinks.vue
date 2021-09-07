@@ -34,39 +34,34 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+//!site section
 #site{
     height: 20vh;
     background:#0282f9 ;
+
+    .row{
+        height: 100%;
+    }
 }
 
-#site .row{
-    height: 100%;
-}
 
-.w-15{
-    width:15%;
-}
-.w-10{
-    width:10%;
-}
-.w-40{
-    width:40%;
-}
 
 .list-nav-li{
     display: flex;
     justify-content: center;
     flex-basis: calc(100%/5);
+
+   a{
+    padding:0  20px;
+    align-self: center;
+    color:#fff;
+
+    }
+    
+   a:hover{
+    color: #fff;
+    }
 }
 
-.list-nav-li a{
-   padding:0  20px;
-   align-self: center;
-   color:#fff;
-
-}
-.list-nav-li a:hover{
-  color: #fff;
-}
 </style>

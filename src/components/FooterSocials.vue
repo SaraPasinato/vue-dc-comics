@@ -25,25 +25,26 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+//!Footer Social
 #socials{
     height: 10vh;
     width: 100%;
     background-color:#303030 ;
-}
 
-#socials .row{
-    height: 100%;
-    align-items: center;
-    justify-content: space-around;
+    .row{
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    h3{
+        color: #0282f9;
+        text-transform: uppercase;
+        font-weight: bold;  
+    }
 }
-
-#socials h3{
-    color: #0282f9;
-    text-transform: uppercase;
-    font-weight: bold;  
-}
-
+//!items in social section
 #items h3,
 #items a{
     margin:5px;

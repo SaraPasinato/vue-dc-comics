@@ -79,24 +79,20 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 header {
   background-color: #fff;
   height: 10vh;
+
+  .row {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .col img{
+    max-width: 65%;
+  }
 }
 
-header .row {
-  height: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.col img{
-  max-width: 65%;
-}
-
-.active{
-  border-bottom: 5px solid #0282f9;
-  color: #0282f9;
-}
 </style>

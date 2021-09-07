@@ -61,7 +61,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+//!footer section
 #footer-links{
     height: 40vh;
 
@@ -70,29 +71,24 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     
+    .row{
+        height: 100%;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
 }
 
-#footer-links .row{
-    height: 100%;
-    align-items: flex-start;
-    justify-content: space-around;
-}
-
+//!footer col 
 .col h3{
   margin-left: 30px;
   margin-bottom: 10px;
   margin-top: 10px;
   text-transform: uppercase;
   color:#fff;
+
 }
 
-.col .link-sm{
-    color: #919090;
-}
-
-#logo-link.col-6{
- align-self: center;
-}
+//!logo link
 
 #logo-link{
     width:30%;
@@ -102,6 +98,10 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
+
+        #logo-link.col-6{
+        align-self: center;
+        }
 }
 
 </style>

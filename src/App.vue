@@ -31,6 +31,7 @@ export default {
 </script>
 
 <style lang="scss">
+//!Generics
 *{
   padding: 0;
   margin:0;
@@ -64,24 +65,23 @@ img{
 .col-6{
   flex-basis: 100%/2;
 }
-
+//!Utils
 li {
   list-style-type: none;
+  a {
+    text-decoration: none;
+    padding: 0 15px 32px 15px;
+    color: #303030;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  a:hover {
+    color: #0282f9;
+  }
 }
 
-li a {
-  text-decoration: none;
-  padding: 0 15px 32px 15px;
-  color: #303030;
-
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.9em;
-}
-
-li a:hover {
-  color: #0282f9;
-}
 
 .list-nav {
   display: flex;
@@ -96,6 +96,12 @@ li a:hover {
 
 .link-sm{
   font-size: 1em;
+  color: #919090;
+}
+
+.active{
+  border-bottom: 5px solid #0282f9;
+  color: #0282f9;
 }
 
 .btn{
@@ -108,8 +114,19 @@ li a:hover {
   border: 2px solid #0282f9;
 }
 
+//!margins & widths
 .mt-3{
   margin-top: 2em;
+}
+
+.w-15{
+    width:15%;
+}
+.w-10{
+    width:10%;
+}
+.w-40{
+    width:40%;
 }
 
 
