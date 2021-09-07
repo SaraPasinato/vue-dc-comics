@@ -51,6 +51,10 @@ img{
   max-width: 1500px;
   margin: 0 auto;
 }
+.container-sm{
+  max-width: 1300px;
+  margin: 0 auto;
+}
 
 .row{
   display: flex;
@@ -77,6 +81,17 @@ li a {
 
 li a:hover {
   color: #0282f9;
+}
+
+.list-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link-sm{

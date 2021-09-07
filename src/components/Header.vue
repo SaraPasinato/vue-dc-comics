@@ -6,7 +6,7 @@
         <img src="@/assets/img/dc-logo.png" alt="logo dc" />
       </div>
       <nav class="col">
-        <ul id="list-nav">
+        <ul class="list-nav">
           <li v-for="(link, index) in links" :key="index">
             <a :href="link.url" :class="{active: link.current}">{{link.text}}</a>
           </li>
@@ -93,10 +93,6 @@ header .row {
 
 .col img{
   max-width: 65%;
-}
-#list-nav {
-  display: flex;
-  justify-content: space-between;
 }
 
 .active{
