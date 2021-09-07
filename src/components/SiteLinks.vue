@@ -36,8 +36,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/assets/scss/_vars.scss';
-@import url('/assets/scss/style.scss');
+@import '../assets/scss/_vars.scss';
+@import '../assets/scss/style.scss';
 //!site section
 #site{
     height: 20vh;
