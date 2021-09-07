@@ -67,7 +67,7 @@ li {
 
 li a {
   text-decoration: none;
-  padding: 20px;
+  padding: 0 15px 32px 15px;
   color: #303030;
 
   text-transform: uppercase;
@@ -80,7 +80,7 @@ li a:hover {
 }
 
 .link-sm{
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .btn{
@@ -93,7 +93,9 @@ li a:hover {
   border: 2px solid #0282f9;
 }
 
-
+.mt-3{
+  margin-top: 2em;
+}
 
 
 </style>

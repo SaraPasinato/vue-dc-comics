@@ -14,7 +14,7 @@ export default {
 
 <style>
 #site{
-    height: 15vh;
+    height: 20vh;
     background:#0282f9 ;
 }
 

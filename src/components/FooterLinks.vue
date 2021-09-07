@@ -1,7 +1,7 @@
 <template>
   <section id="footer-links" class="">
   <div class="container row">
-          <div class="col-6">
+          <div class="col-6 mt-3">
              <div class="row">
                  <div class="col">
                       <h3>DC Comics</h3>
@@ -79,7 +79,7 @@ export default {
 }
 
 .col h3{
-  margin-left: 40px;
+  margin-left: 30px;
   margin-bottom: 10px;
   margin-top: 10px;
   text-transform: uppercase;
