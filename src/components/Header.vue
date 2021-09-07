@@ -82,7 +82,7 @@ export default {
 <style>
 header {
   background-color: #fff;
-  height: 12vh;
+  height: 10vh;
 }
 
 header .row {
@@ -90,13 +90,17 @@ header .row {
   justify-content: space-between;
   align-items: center;
 }
+
+.col img{
+  max-width: 65%;
+}
 #list-nav {
   display: flex;
   justify-content: space-between;
 }
 
 .active{
-  border-bottom: 4px solid #0282f9;
+  border-bottom: 5px solid #0282f9;
   color: #0282f9;
 }
 </style>

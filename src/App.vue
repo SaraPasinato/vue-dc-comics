@@ -67,7 +67,7 @@ li {
 
 li a {
   text-decoration: none;
-  padding: 44px 20px;
+  padding: 20px;
   color: #303030;
 
   text-transform: uppercase;
