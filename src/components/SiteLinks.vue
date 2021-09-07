@@ -29,23 +29,24 @@
 </template>
 
 <script>
+
 export default {
  name :'SiteLinks',
 }
 </script>
 
 <style lang="scss">
+@import '@/assets/scss/_vars.scss';
+@import url('/assets/scss/style.scss');
 //!site section
 #site{
     height: 20vh;
-    background:#0282f9 ;
+    background:$prime-color ;
 
     .row{
         height: 100%;
     }
 }
-
-
 
 .list-nav-li{
     display: flex;
@@ -55,12 +56,12 @@ export default {
    a{
     padding:0  20px;
     align-self: center;
-    color:#fff;
+    color:$light-color;
 
     }
-    
+
    a:hover{
-    color: #fff;
+    color: $light-color;
     }
 }
 

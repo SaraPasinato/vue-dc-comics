@@ -10,11 +10,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import '@/assets/scss/_vars.scss';
 
 #comics{
     height: 20vh;
     padding: 80px;
-    color: #fff;
+    color: $light-color;
     }
 </style>

@@ -80,8 +80,11 @@ export default {
 </script>
 
 <style lang="scss">
+@import '../assets/scss/_vars.scss';
+@import '../assets/scss/style.scss';
+
 header {
-  background-color: #fff;
+  background-color: $light-color;
   height: 10vh;
 
   .row {

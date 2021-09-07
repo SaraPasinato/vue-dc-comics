@@ -1,0 +1,68 @@
+@import '@/assets/scss/_vars.scss';
+@import '@/assets/scss/_generics.scss';
+//!li
+  li {
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      padding: 0 15px 32px 15px;
+      color: $dark-secondary-color;
+  
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    a:hover {
+      color: $prime-color;
+    }
+  }
+    .list-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .list-nav-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+//!UTILS
+
+.link-sm{
+  font-size: 1em;
+  color: $secondary-color;
+}
+
+.active{
+  border-bottom: 5px solid $prime-color;
+  color: $prime-color;
+}
+
+.btn{
+  padding:20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn.btn-primary{
+  color: $light-color;
+  border: 2px solid $prime-color;
+}
+
+//!margins & widths
+.mt-3{
+  margin-top: 2em;
+}
+
+.w-15{
+    width:15%;
+}
+.w-10{
+    width:10%;
+}
+.w-40{
+    width:40%;
+}
+
+
+

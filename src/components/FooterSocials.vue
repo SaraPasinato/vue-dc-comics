@@ -26,11 +26,12 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/assets/scss/_vars.scss';
 //!Footer Social
 #socials{
     height: 10vh;
     width: 100%;
-    background-color:#303030 ;
+    background-color:$dark-secondary-color ;
 
     .row{
         height: 100%;
@@ -39,7 +40,7 @@ export default {
     }
     
     h3{
-        color: #0282f9;
+        color: $prime-color;
         text-transform: uppercase;
         font-weight: bold;  
     }
