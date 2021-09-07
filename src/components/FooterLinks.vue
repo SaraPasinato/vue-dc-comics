@@ -100,7 +100,6 @@ export default {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: 1;
 
         #logo-link.col-6{
         align-self: center;
