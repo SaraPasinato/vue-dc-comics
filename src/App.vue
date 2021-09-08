@@ -1,6 +1,7 @@
 <template>
   <div id="app">
   <Header/>
+  <Jumbotron/>
   <main>
     <Comics />
     <SiteLinks/>
@@ -18,6 +19,7 @@ import FooterLinks from "@/components/FooterLinks.vue";
 import FooterSocials from "@/components/FooterSocials.vue";
 import Comics from "@/components/Comics.vue";
 import SiteLinks from "@/components/SiteLinks.vue";
+import Jumbotron from './components/Jumbotron.vue';
 
 export default {
   name: 'App',
@@ -27,6 +29,7 @@ export default {
    FooterLinks,
    FooterSocials,
    SiteLinks,
+   Jumbotron,
   },
 }
 </script>
