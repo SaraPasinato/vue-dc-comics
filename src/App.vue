@@ -2,7 +2,7 @@
   <div id="app">
   <Header/>
   <main>
-    <Comics/>
+    <Comics />
     <SiteLinks/>
   </main>
   <footer>
@@ -18,6 +18,7 @@ import FooterLinks from "@/components/FooterLinks.vue";
 import FooterSocials from "@/components/FooterSocials.vue";
 import Comics from "@/components/Comics.vue";
 import SiteLinks from "@/components/SiteLinks.vue";
+
 export default {
   name: 'App',
   components: {
