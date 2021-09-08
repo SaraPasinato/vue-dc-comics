@@ -26,7 +26,7 @@ export default {
    FooterLinks,
    FooterSocials,
    SiteLinks,
-  }
+  },
 }
 </script>
 
