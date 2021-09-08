@@ -119,7 +119,7 @@ export default {
 }
 #comics {
   height: 100%;
-  padding: 80px;
+  padding: 80px 0 10px 0 ;
   color: $light-color;
 
   display: flex;
@@ -129,9 +129,9 @@ export default {
  
 }
  .controls{
-   height: 30vh;
+   height: 20vh;
    text-align: center;
-   line-height: 30vh;
+   line-height: 20vh;
 
    .btn{
      margin: 0 auto;
