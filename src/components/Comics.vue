@@ -1,6 +1,11 @@
 <template>
-  <section id="comics" class="container">
-    <ComicCard v-for="(comic,index) in comics" :key="index" :card="comic" />
+  <section  id="mainContent" class="container">
+    <section id="comics">
+      <ComicCard v-for="(comic,index) in comics" :key="index" :card="comic" />
+    </section>
+    <div class="controls">
+      <p><a href="#" class="btn btn-primary-full"> Laod more</a></p>
+    </div>
   </section>
 </template>
 
@@ -106,14 +111,30 @@ export default {
 
 <style lang="scss">
 @import "../assets/scss/_vars.scss";
+@import "../assets/scss/style.scss";
 
+#main-content{
+  height: 100%;
+  margin-bottom: 50px;
+}
 #comics {
-  height: fit-content;
+  height: 100%;
   padding: 80px;
   color: $light-color;
 
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+ 
 }
+ .controls{
+   height: 30vh;
+   text-align: center;
+   line-height: 30vh;
+
+   .btn{
+     margin: 0 auto;
+   }
+  }
 </style>
