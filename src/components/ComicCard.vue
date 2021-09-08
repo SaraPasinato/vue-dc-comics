@@ -25,6 +25,7 @@ export default {
      img{
          max-width: 50%;
         transform: scale(1.5,1);
+        cursor: pointer;
      }
 
      h5{
