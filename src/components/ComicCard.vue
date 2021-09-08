@@ -21,11 +21,12 @@ export default {
      color: $light-color;
      text-align: center;
      margin: 0.6rem;
+    cursor: pointer;
 
      img{
          max-width: 50%;
         transform: scale(1.5,1);
-        cursor: pointer;
+       
      }
 
      h5{
