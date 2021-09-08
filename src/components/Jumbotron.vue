@@ -18,10 +18,11 @@ export default {
     
     height: 40vh;
 
-    background: url('../assets/img/jumbotron.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.8)),url('../assets/img/jumbotron.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    
 
     position: relative;
 
@@ -29,6 +30,8 @@ export default {
         position: absolute;
         bottom: -30px;
         left:325px;
+        z-index: 1;
+        
 
         text-transform: uppercase;
         font-weight: bolder;
