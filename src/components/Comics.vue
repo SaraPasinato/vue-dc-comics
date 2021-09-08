@@ -4,7 +4,7 @@
       <ComicCard v-for="(comic,index) in comicsData" :key="index" :card="comic" />
     </section>
     <div class="controls">
-      <p><a href="#" class="btn btn-primary-full"> Laod more</a></p>
+      <p><a href="#" class="btn btn-primary-full"> Load more</a></p>
     </div>
   </section>
 </template>
