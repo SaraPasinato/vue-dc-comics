@@ -31,6 +31,7 @@ export default {
 
      h5{
          text-transform: uppercase;
+         margin-top: 10px;
      }
 
      h6{
