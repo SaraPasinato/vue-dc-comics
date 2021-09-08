@@ -25,7 +25,7 @@ export default {
 
      img{
          max-width: 50%;
-        transform: scale(1.5,1);
+        transform: scale(1.4,1);
        
      }
 
